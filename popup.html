@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一键置顶</title>
+    <style>
+        .container {
+            width: 200px;
+            padding: 10px 20px;
+            /* margin: 0 auto; */
+        }
+
+        h4 {
+            text-align: center;
+        }
+        select {
+            display: inline-block;
+            line-height: 1;
+            white-space: nowrap;
+            cursor: pointer;
+            background: #fff;
+            border: 1px solid #dcdfe6;
+            color: #606266;
+            -webkit-appearance: none;
+            text-align: center;
+            box-sizing: border-box;
+            outline: none;
+            margin: 0;
+            transition: 0.1s;
+            font-weight: 500;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            padding: 12px 20px;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+
+        .btn {
+            display: inline-block;
+            line-height: 1;
+            white-space: nowrap;
+            cursor: pointer;
+            background: #fff;
+            border: 1px solid #dcdfe6;
+            color: #606266;
+            -webkit-appearance: none;
+            text-align: center;
+            box-sizing: border-box;
+            outline: none;
+            margin: 0;
+            transition: 0.1s;
+            font-weight: 500;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            padding: 12px 20px;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+        .btn:hover {
+            box-shadow: 0 1px 3px #fafafa;
+            background: #fafafa;
+            color: #409eff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <span>速度选择：</span> -->
+        <h4>一键置顶，拒绝sx网页</h4>
+        <select id="select">
+            <option value="average">均速</option>
+            <option value="immediate">直接置顶</option>
+            <option value="fast-to-slow">快到慢</option>
+        </select>
+        <button class="btn" id="topBtn">一键置顶</button>
+    </div>
+
+    <script src="./popup.js"></script>
+</body>
+
+</html>
