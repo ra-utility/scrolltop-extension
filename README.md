@@ -10,3 +10,6 @@ use window.requestAnimationFrame or setTimeout.
 ```js
 window.requestAnimationFrame ? window.requestAnimationFrame(func) : setTimeout(func, 16)
 ```
+
+## download
+* https://github.com/ra-utility/scrolltop--extension/releases/tag/1.0
