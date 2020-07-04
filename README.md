@@ -1,6 +1,6 @@
 # scrolltop-extension
 
-A one-click swipe to the top of the page browser plugin for some SX pages that don't have a top button. If you don't know CMD +(top/down).
+A chrome extension what one-click scroll to the top of the page, for some SX pages that don't have a top button. If you don't know CMD +(top/down).
 
 
 ## principle
