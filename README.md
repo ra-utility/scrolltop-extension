@@ -1,2 +1,12 @@
 # scrolltop-extension
-一键置顶浏览器插件，针对一些sx网页没有置顶按钮的时候。加入你不知道cmd+🔝~
+
+A one-click swipe to the top of the page browser plugin for some SX pages that don't have a top button. If you don't know CMD +(top/down).
+
+
+## principle
+
+use window.requestAnimationFrame or setTimeout.
+
+```js
+window.requestAnimationFrame ? window.requestAnimationFrame(func) : setTimeout(func, 16)
+```
