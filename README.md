@@ -13,3 +13,7 @@ window.requestAnimationFrame ? window.requestAnimationFrame(func) : setTimeout(f
 
 ## download
 * https://github.com/ra-utility/scrolltop--extension/releases/tag/1.0
+
+## tips
+
+If you want to publish the plugin to the Google app market, you need money, so here you need to download the CTX file, unzip it and use it.
